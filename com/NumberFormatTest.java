@@ -15,6 +15,7 @@ public static void main(String[] args) {
 	System.out.println(format.format(56.5845845));
 	format.setCurrency(Currency.getInstance("USD"));
 	System.out.println(format.getRoundingMode().getDeclaringClass());
+	System.out.println("End");
 	
 }
 }
